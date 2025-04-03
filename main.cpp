@@ -52,7 +52,6 @@ struct Game {
 int main()
 {
 	Game mGame;
-	mGame.Games.GameSettings.HardnessLevel = 3;
 	mGame.Games.StartGame();
 	system("pause >nul");
 }
